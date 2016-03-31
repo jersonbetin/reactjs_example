@@ -3,15 +3,15 @@
 */
 
 import React from 'react';
-import EmployAvatar from './employ-avatar';
+import EmployAvatar from '../employ-avatar';
 
 class EmployRow extends React.Component {
-    render(){
+    render() {
         return <li>
-                <EmployAvatar {this.props.icon}/>
+                <EmployAvatar employIcon = {this.props.icon} />
                 {this.props.name}
             </li>
     }
 }
 
-exports default EmployRow;
+export default EmployRow;
