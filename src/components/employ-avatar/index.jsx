@@ -6,7 +6,7 @@ import React from 'react';
 
 class EmployAvatar extends React.Component{
    //contructor
-   /*constructor(){
+   /*constructor(props){
       super(props);
       this.state = {employIcon: ""};
    }*/
